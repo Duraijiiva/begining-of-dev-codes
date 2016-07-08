@@ -1,0 +1,22 @@
+To install Java:
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java6-installer
+sudo apt-get install oracle-java6-set-default 
+
+To install building packages:
+
+sudo apt-get install git-core gnupg flex bison gperf build-essential \zip curl zlib1g-dev libc6-dev lib32ncurses5-dev libncurses5-dev x11proto-core-dev \libx11-dev libreadline6-dev lib32readline-gplv2-dev lib32z-dev libgl1-mesa-dev g++-multilib mingw32 tofrodos python python-markdown \libxml2-utils xsltproc pngcrush gcc-multilib lib32z1 schedtool
+
+To install git:
+
+sudo apt-get install git
+
+To install repo:
+
+http://stackoverflow.com/questions/4350344/how-to-istall-repo-on-my-ubuntu-system
+
+Linking a file:
+
+ln -s /usr/lib/i386-linux-gnu/libX11.so.6 /usr/lib/i386-linux-gnu/libX11.so
